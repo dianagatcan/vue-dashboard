@@ -1,14 +1,13 @@
 <template>
-  <HelloWorld />
+  <SidebarComponent />
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import SidebarComponent from "../components/SidebarComponent.vue";
 export default {
-  name: "HomeView",
-  components: {
-    HelloWorld,
-  },
+  name: "HelloWorld",
+  components: { SidebarComponent },
 };
 </script>
+
+<style scoped></style>
